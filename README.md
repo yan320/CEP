@@ -19,6 +19,7 @@ You can find the packages the I used here:
 cd ~/catkin_ws/src/
 git clone {link_git}
 cd ~/catkin_ws && catkin_make
+source ./devel/setup.bash
 ```
 
 To install my package you will do the same from above.
@@ -43,7 +44,7 @@ And
 ```
 
 ## Run Code
-I have four stage as in the examples of Robotis. But I dont know yet my code dont have a geat performance in stage 3.
+I have four stage as in the examples of Robotis.
 
 First to run(cep):
 ```
