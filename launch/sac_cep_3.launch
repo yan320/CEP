@@ -1,0 +1,6 @@
+<launch>
+  <arg name="stage" default="3"/>
+  <param name="stage_number"  value="$(arg stage)"/>
+  <node pkg="project" type="sac_energy.py" name="sac_energy" output="screen" />
+  <node pkg="project"  type="moving_obstacle.py" name="moving_obstacle" output="screen" />
+</launch>

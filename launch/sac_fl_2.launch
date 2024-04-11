@@ -1,0 +1,5 @@
+<launch>
+  <arg name="stage" default="2"/>
+  <param name="stage_number"  value="$(arg stage)"/>
+  <node pkg="project" type="sac_fl_2.py" name="sac_fl_2" output="screen" />
+</launch>
